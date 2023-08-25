@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import SignupModal from '../signup-modal/SignupModal'; // Adjust the path
-import '../login-page-md-devices/style.css'
+import '../login-page-md-devices/style.css';
 
 const LoginPage = () => {  
 
@@ -20,6 +20,9 @@ const LoginPage = () => {
     <div className="login-page d-none d-md-block">
       <div className="container">
         <div className="row">
+
+          {/* <!-- title column --> */}
+
           <div className="col-12 col-md-6 title-section-md-devices">
             <h1 className="facebook-title-md-devices">facebook</h1>
             <p className="facebook-headline-md-devices">
@@ -27,6 +30,9 @@ const LoginPage = () => {
               with the people in your life.
             </p>
           </div>
+
+          {/* <!-- login section --> */}
+
           <div className="col-12 col-md-6 d-flex align-items-center justify-content-center vh-100">
             <div className="card login-card">
               <div className="card-body">
